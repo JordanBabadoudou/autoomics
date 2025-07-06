@@ -1,0 +1,17 @@
+name: autoomics-env
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.10
+  - pandas
+  - biopython
+  - rich
+  - openai
+  - jinja2
+  - r-base=4.3
+  - r-seurat
+  - r-ggplot2
+  - r-matrix
+  - r-tidyverse
